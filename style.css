@@ -1,0 +1,59 @@
+header{
+    background-color: rgb(66, 70, 66);
+    height: 600px; /*высота*/
+    color: rgb(33, 34, 33); /*цвет текста*/
+    font-size: 40px; /*размер текста*/
+    background-image: url("main-day.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 46px;
+    color: rgb(44, 62, 56);
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: antiquewhite;
+}
+main{
+    background-color: rgb(253, 250, 224);
+    height: 100%; /*высота*/
+    color: rgb(220, 219, 217); /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( to right, rgb(71, 86, 75), rgb(39, 37, 37))
+}
+
+footer{
+    background-color: rgb(54, 68, 55);
+    height: 200px; /*высота*/
+    color: white; /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(95, 133, 106, 0);
+    float: left;
+    margin: 50px;
+    padding: 30px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    float: right;
+}
